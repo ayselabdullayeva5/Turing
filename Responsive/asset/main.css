@@ -39,10 +39,3 @@
 .col-12{
     width: calc(100% /12*12);
 }
-
-
-@media (max-width: 768){
-    .col-4{
-        width: 100%;
-    }
-}
