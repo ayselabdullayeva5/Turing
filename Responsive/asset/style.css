@@ -65,9 +65,8 @@ button{
     background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
 }
 
-@media (max-width: 768px) {
+@media ( max-width: 768px ){
     .col-4{
         width: 100%;
     }
-    
 }
