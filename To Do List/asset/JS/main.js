@@ -25,7 +25,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Create a new list item when clicking on the "Add" button
+// Create a new list item when clicking on the "Submit" button
 document.getElementById("mybutton").onclick = function() {
   const li = document.createElement("li");
   const inputValue = document.getElementById("myinput").value;
