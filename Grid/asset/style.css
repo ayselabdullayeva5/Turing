@@ -1,0 +1,63 @@
+.container{
+    margin: 70px auto;
+    max-width: 580px;
+}
+.col-12{
+    gap: 15px;
+    display: grid;
+    grid-template-areas: "A A B"
+                         "C D B";
+}
+.second .col-12{
+    grid-template-areas: "A A B B"
+                         "C D D D"
+                         "E E E E";
+    grid-template-columns: repeat(4, 2fr);
+}
+.third .col-12{
+    grid-template-areas: "One One One One One"
+                         "Two Two Two Three Three"
+                         "Two Two Two Four Five";
+    grid-template-columns: 1fr 2fr
+                           1fr 2fr 2fr;
+}
+.a,.b,.c,.d,.e,.one,.two,.three,.four,.five{
+    border-radius: 15px;
+    color: white;
+    font-size: 35px;
+    padding: 35px;
+    background-color: #414141;
+}
+.one,.two,.three,.four,.five{
+    padding: 30px 0 65px 30px;
+}
+.a{
+    grid-area: A;
+}
+.b{
+    grid-area: B;
+}
+.c{
+    grid-area: C;
+}
+.d{
+    grid-area: D;
+}
+.e{
+    grid-area: E;
+}
+.one{
+    grid-area: One;
+}
+.two{
+    grid-area: Two;
+}
+.three{
+    grid-area: Three;
+}
+.four{
+    grid-area: Four;
+}
+.five{
+    grid-area: Five;
+}

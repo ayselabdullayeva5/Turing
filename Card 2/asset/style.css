@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242424;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1030px;
+}
+.flex,h6{
+    display: flex;
+}
+.row{
+    gap: 20px;
+}
+h1{
+    font-size: 33px;
+    margin: 20px 0 0;
+}
+.card{
+    font-weight: 500;
+    margin: 30px 0;
+    cursor: pointer;
+    width: 330px;
+    background-color: #333132;
+    border-radius: 13px;
+    transition: 0.4s;
+}
+.card:hover{
+    margin-top: 15px;
+}
+.cardphoto{
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #d74064
+}
+.cardtitle{
+    margin: 20px;
+}
+.cardprice{
+    border-radius: 28px;
+    gap: 9px;
+    background-color: #dd5a79;
+    width: 100px;
+    padding: 10px 18px;
+}
+.background,h6{
+    align-items: flex-end;
+}
+#background{
+    width: 160px;
+    height: 90px;
+}
+#backgroundpng{
+    margin-right: 7px;
+    width: 120px;
+    height: 110px;
+}
+h2{
+    margin-bottom: 13px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.price{
+    padding-top: 3px;
+}
+i{
+    line-height: 0;
+    font-size: 11px;
+}
+h4{
+    line-height: 1.4;
+    font-size: 30px;
+}
+h5{
+    line-height: 0.9;
+}
+.color{
+    margin: 10px 0;
+    justify-content: center;
+}
+.red{
+    width: 120px;
+    height: 4px;
+    background-color: #d74064;
+}
+.white{
+    background-color: white;
+    width: 170px;
+    height: 4px;
+}
+.one{
+    width: 160px;
+}
+.two{
+    width: 130px;
+}
+.three{
+    width: 200px;
+}
+.four{
+    width: 90px;
+}
+.five{
+    width: 230px;
+}
+.six{
+    width: 60px;
+}
+.gap{
+    gap: 10px;
+}
+.justify{
+    justify-content: space-between;
+}
+h6{
+    font-size: 15px;
+}
+.button{
+    text-align: center;
+}
+button{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #333132;
+    margin: 15px 0 27px;
+    border-radius: 19px;
+    width: 290px;
+    height: 40px;
+}
+.png,button{
+    border: 1px solid white;
+}
+.distance{
+    padding: 10px 15px;
+}
+#phone,#globe{
+    font-size: 18px;
+}
+.box{
+    background-color: #58595d;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.all{
+    padding: 0 7px;
+}
+.wrap{
+    margin-bottom: 25px;
+}
+.social_media{
+    margin-bottom: 51px;
+}
+.social,.media{
+    align-items: center;
+    gap: 18px;
+}
+.icons{
+    gap: 0;
+}
+.media h3{
+    padding: 0 3px ;
+}
+.head{
+    width: 50px;
+}
+.png{
+    border-radius: 50%;
+}

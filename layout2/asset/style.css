@@ -1,0 +1,170 @@
+.flex,.star i{
+    display: flex;
+}
+.row,button{
+    cursor: pointer;
+}
+.row{
+    margin: 30px 40px 20px 40px;
+    gap: 25px;
+}
+.card,button{
+    box-shadow: 0px 5px 9px #a9a39e ;
+}
+img{
+    width: 100%;
+}
+button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 50%;
+}
+i{
+    font-size: 22px;
+}
+.like{
+    padding: 10px;
+    justify-content: space-between;
+    width: 275px;
+    height: max-content;
+}
+.last{
+    justify-content: flex-end;
+}
+.product{
+    width: 60px;
+}
+.card-image{
+    position: relative;
+}
+.card-content{
+    padding: 15px 10px;
+}
+.color-wrapper p,span,.icon p{
+    font-weight: 600;
+}
+.card-content > p{
+    font-size: 15px;
+}
+.card-image > p,.card{
+    border-radius: 12px;
+} 
+.color-wrapper,.card-image > p,.like{
+    position: absolute;
+}
+.card-image > p{
+    bottom: 13px;
+    left: 10px;
+    color: #8a8c8c;
+    background-color: #e5e4e3;
+    border: 1px solid #a9a39e;
+    padding: 4px 7px;
+}
+.star{
+    margin-top: 28px;
+    gap: 5px;
+}
+.star img{
+    width: 20px;
+}
+.price{
+    margin-top: 33px;
+    gap: 6px;
+    color: #f27a1a;
+}
+.price p{
+    font-size: 19px;
+}
+.price h5{
+    padding-bottom: 2px;
+    align-items: flex-end;
+}
+.star i{
+    color: #ffc000;
+}
+.icon{
+    margin-top: 14px;
+}
+.icon img{
+    width: 25px;
+}
+.icon p,button,.star i{
+    align-items: center;
+}
+.star i,.icon p{
+    font-size: 13px;
+}
+.icon p{
+    font-weight: 700;
+}
+.basket,.heart{
+    margin: 5px 0;
+}
+.color-wrapper,.basket,.heart{
+    gap: 3px;
+}
+.basket img{
+    width: 16px;
+}
+#basket,#heart{
+    margin-top: 5px;
+}
+.heart img{
+    width: 18px;
+}
+h6{
+    margin-top: 12px;
+    font-size: 16px;
+}
+.red{
+    margin-top: 3px;
+}
+.red,h6{
+    color: #bb0000;
+}
+.gap{
+    margin-bottom: 43px;
+}
+.promotion{
+    background-color: #fef4eb;
+}
+.video{
+    background-color: #ebf5ff;
+}
+.coupon{
+    background-color: #fff0f5;
+}
+.promotion,.video,.coupon{
+    padding: 2px 8px 2px 3px;
+}
+.icon{
+    gap: 8px;
+}
+.color-wrapper,button{
+    background-color: white;
+}
+.color-wrapper{
+    height: fit-content;
+    bottom: 17px;
+    right: 12px;
+    border-radius: 11px;
+    padding: 4px 6px;
+}
+.color-wrapper p{
+    align-self: center;
+    font-size: 12px;
+}
+.color{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #3023ae 0%, #53a0fd 48%, #b4ec51 101%);
+    z-index: 2;
+}
+.orange{
+    margin-left: -5px;
+    z-index: 1;
+    background-image: linear-gradient(to right, #6bceb4 0%, #f98cc2 48%, #fff781 101%);
+}

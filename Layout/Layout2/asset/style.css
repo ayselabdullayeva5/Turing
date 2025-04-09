@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    background-color: #e1e1e1;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.first,.one,.row,.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    width: 500px;
+    height: 120px;
+}
+h1,.button{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
+.row{
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card,button{
+    cursor: pointer;
+}
+.card{
+    background-color: white;
+    overflow: hidden;
+    width: 270px;
+    height: 190px;
+    color: #54535a;
+    border-radius: 0 0 12px 12px;
+    border-collapse: collapse;
+    box-shadow: 4px 10px 9px -3px rgba(179,171,171,0.75);
+}
+.card:hover{
+    box-shadow: 10px 10px 9px 3px rgba(179,171,171,0.75);
+}
+.card-title{
+    padding: 20px 15px;
+    margin-top: 10px;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    color: white;
+}
+.icon1,.pink1{
+    background-color: #e646a0;
+}
+.icon2,.blue{
+    background-color: #31bcc9;
+}
+.icon3,.green{
+    background-color: #41ba42;
+}
+.icon4,.yellow{
+    background-color: #e0e600;
+}
+.icon5,.violet{
+    background-color: #be7def;
+}
+.icon6,.pink2{
+    background-color: #eb78bc;
+}
+i{
+    font-size: 22px;
+}
+h3{
+    font-size: 18px;
+    line-height: 2.5;
+}
+h4{
+    font-size: 13px;
+    line-height: 1.2;
+}
+.pink1,.blue,.green,.yellow,.violet,.pink2{
+    height: 18px;
+}
+button{
+    font-weight: 600;
+    margin: 35px 0;
+    font-size: 12px;
+    width: 142px;
+    height: 37px;
+    border-radius: 11px;
+    border: none;
+    background-color: #e5469f;
+    color: white;
+}
