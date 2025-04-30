@@ -1,0 +1,73 @@
+.announce,.gap,label,.place,.condition,.part{
+    display: flex;
+}
+
+p{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+ul{
+    line-height: 1.5;
+    margin: 15px 0 30px;
+}
+
+.error,span {
+    color: #ca1016;
+}
+
+.hint{
+    color: #888;
+}
+
+form {
+    margin: 0 90px;
+    border-radius: 20px;
+}
+
+.button {
+    margin: 20px 0 0 150px;
+    background-color: #ca1016;
+    padding: 10px 80px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=checkbox],input[type=radio] {
+    cursor: pointer;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ca1016;
+}
+
+input[type="checkbox"]:checked,input[type="radio"]:checked{
+    transition: 0.2s;
+    padding: 2px;
+    background-color: #ca1016;
+}
+
+.gap,.part{
+    gap: 30px;
+}
+
+.announce {
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.gap {
+    flex-wrap: wrap;
+}
+
+.gap,label {
+    align-items: center;
+}
+
+input[type=text],
+input[type=email],input[type=number],
+select  {
+    width: 280px;
+}
